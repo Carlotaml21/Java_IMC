@@ -1,5 +1,9 @@
 package com.carlotaml21;
 
-public final class IMCCalculator{
-    
+public class IMCCalculator {
+
+    public double calculateIMC(double weight, double height) {
+        return weight / (height * height);
+    }
+
 }
